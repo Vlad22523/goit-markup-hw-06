@@ -228,6 +228,7 @@
   .contacts-list {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 40px;
   }
 
   .contacts-item {

@@ -147,7 +147,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-bg.jpg);
+    url(../images/office-bg-phone.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -155,17 +155,19 @@ img {
   padding-bottom: 188px; */
   padding-top: 72px;
   padding-bottom: 72px;
-  max-width: 1440px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
-@media (min-resolution: 192dpi) {
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/office-bg-2x.jpg");
+      url("../images/images-2x/office-bg-phone-2x.jpg");
   }
 }
 

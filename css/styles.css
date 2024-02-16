@@ -828,12 +828,19 @@ img {
   background-color: #ffffff;
   padding: 0 16px 40px 16px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   z-index: 10;
   overflow: auto;
   transition: top 300ms linear;
   top: -100%;
+}
+
+.burger-container {
+  max-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header-burger-menu {
@@ -887,12 +894,6 @@ img {
 
 .burder-block {
   padding-top: 25px;
-}
-
-.burger-container {
-  max-width: 320px;
-  margin: 0 auto;
-  position: relative;
 }
 
 .header-burger.active {

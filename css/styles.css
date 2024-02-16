@@ -30,7 +30,7 @@ img {
   /* max-width: 1158px; */
   max-width: 320px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .header {
@@ -239,6 +239,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  text-align: center;
   /* gap: 24px; */
   gap: 72px;
 }
@@ -292,7 +293,7 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   gap: 72px;
 }
@@ -481,6 +482,7 @@ img {
 .footer-container {
   display: flex;
   flex-direction: column;
+  gap: 72px;
   /* align-items: baseline; */
 }
 
@@ -507,7 +509,6 @@ img {
 
 /* -------- */
 .footer-block-social {
-  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
 }

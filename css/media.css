@@ -75,6 +75,7 @@
     text-decoration: none;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
   }
 
   .contacts-list {
@@ -127,6 +128,7 @@
     flex-direction: row;
     column-gap: 24px;
     row-gap: 72px;
+    text-align: start;
   }
 
   .strategy-list li {
@@ -143,11 +145,10 @@
   }
 
   .team .container {
-    padding: 0 108px;
   }
 
   .team-list-li {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
   /* ------team---------- */
 
@@ -178,6 +179,10 @@
 
   .footer-block-logo a {
     text-align: start;
+  }
+
+  .footer-block-logo {
+    margin-bottom: 0;
   }
 
   .footer-container {
@@ -365,6 +370,7 @@
 
   .footer-container {
     align-items: baseline;
+    gap: 0;
   }
 
   .footer-text {
